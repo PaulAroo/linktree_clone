@@ -2,4 +2,26 @@
   max-width: 1440px;
   margin: 0 auto;
   // padding: 1rem;
+
+  .links {
+    border: 1px solid;
+    padding-inline: min(9vw, 144px);
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+    > a {
+      text-decoration: none;
+      text-align: center;
+      padding: 1.4rem;
+      color: inherit;
+      font-size: 1.125rem;
+      font-weight: 600;
+
+      background: #eaecf0;
+
+      border: 1px solid #eaecf0;
+      border-radius: 8px;
+    }
+  }
 }

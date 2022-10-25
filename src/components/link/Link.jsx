@@ -1,7 +1,7 @@
 import "./link.scss";
 
-function Link() {
-  return <div>Link</div>;
+function Link({ id, link }) {
+  return <div className="link">Link</div>;
 }
 
 export default Link;
