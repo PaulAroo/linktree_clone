@@ -39,9 +39,9 @@ function App() {
       </section>
       <footer>
         <div className="content">
-          <img src="/assets/zuri.svg" alt="" />
+          <img src="assets/zuri.svg" alt="zuri logo" />
           <p>HNG Internship 9 Frontend Task</p>
-          <img src="/assets/I4G.svg" alt="" />
+          <img src="assets/ig.svg" alt="I4G logo" />
         </div>
       </footer>
     </div>

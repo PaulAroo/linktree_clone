@@ -13,13 +13,13 @@
     width: 88px;
     height: 88px;
     border-radius: 50%;
-    background-image: url(assets/profile_web.png);
+    background-image: url("../../assets/profile_web.png");
     background-repeat: no-repeat;
     background-size: contain;
     transition: all 0.2s;
 
     &:hover {
-      background-image: url(assets/profile_hover.png);
+      background-image: url("../../assets/profile_hover.png");
     }
 
     &:is(:focus, :focus-visible) {
@@ -32,7 +32,7 @@
   .profile_btn {
     width: 2.5rem;
     height: 2.5rem;
-    background-image: url("assets/share_button.svg");
+    background-image: url("../../assets/share_button.svg");
     position: absolute;
     background-repeat: no-repeat;
     background-position: 50% 50%;
@@ -51,7 +51,7 @@
     }
 
     @media (max-width: 767px) {
-      background-image: url("assets/share_button_mobile.svg");
+      background-image: url("../../assets/share_button_mobile.svg");
       top: -10%;
       right: 8%;
     }
