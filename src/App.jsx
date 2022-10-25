@@ -1,5 +1,4 @@
 import "./App.scss";
-import Link from "./components/link/Link";
 import Profile from "./components/profile/Profile";
 
 function App() {
