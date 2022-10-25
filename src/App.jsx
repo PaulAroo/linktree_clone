@@ -33,7 +33,18 @@ function App() {
         >
           Design Books
         </a>
+        <div className="icons">
+          <img src="assets/slack_logo.svg" alt="slack icon" />
+          <img src="assets/github_icon.svg" alt="github icon" />
+        </div>
       </section>
+      <footer>
+        <div className="content">
+          <img src="/assets/zuri.svg" alt="" />
+          <p>HNG Internship 9 Frontend Task</p>
+          <img src="/assets/I4G.svg" alt="" />
+        </div>
+      </footer>
     </div>
   );
 }

@@ -1,29 +1,59 @@
+// $breakpoint_mobile: 375px;
+
 .profile {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   gap: 1.5rem;
-  padding: 4rem 9rem 3rem;
-  border: 1px solid;
+  padding-bottom: 3rem;
+  position: relative;
 
   .profile_img {
     width: 88px;
     height: 88px;
     border-radius: 50%;
-    background-image: url(../../assets/profile_web.png);
+    background-image: url(assets/profile_web.png);
     background-repeat: no-repeat;
     background-size: contain;
     transition: all 0.2s;
 
     &:hover {
-      background-image: url(../../assets/profile_hover.png);
+      background-image: url(assets/profile_hover.png);
     }
 
     &:is(:focus, :focus-visible) {
       // box-shadow: rgb(100 100 111 / 20%) 0px 0px 0px 10px;
       border: 5.5px solid #ebe9fe;
       outline: none;
+    }
+  }
+
+  .profile_btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url("assets/share_button.svg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+    border: 1px dashed;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: all 0.2s;
+
+    top: -10%;
+    right: 20%;
+
+    &:hover {
+      cursor: pointer;
+      opacity: 1;
+    }
+
+    @media (max-width: 767px) {
+      background-image: url("assets/share_button_mobile.svg");
+      top: -10%;
+      right: 8%;
     }
   }
 
