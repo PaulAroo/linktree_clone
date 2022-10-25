@@ -1,0 +1,40 @@
+.profile {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 4rem 9rem 3rem;
+  // border: 1px solid;
+
+  .profile_img {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-image: url(../../assets/profile_web.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    transition: all 0.2s;
+
+    &:hover {
+      background-image: url(../../assets/profile_hover.png);
+    }
+
+    &:is(:focus, :focus-visible) {
+      // box-shadow: rgb(100 100 111 / 20%) 0px 0px 0px 10px;
+      border: 5.5px solid #ebe9fe;
+      outline: none;
+    }
+  }
+
+  > p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+  }
+
+  > #slack {
+    display: none;
+  }
+}
