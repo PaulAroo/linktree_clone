@@ -37,12 +37,9 @@ $breakpoint_mobile: 375px;
       justify-content: center;
       gap: 1.6rem;
       padding-block: 1.5rem;
-      > img {
-        width: 1.5rem;
-      }
 
-      @media (max-width: $breakpoint_mobile) {
-        display: none;
+      img {
+        width: 1.5rem;
       }
     }
 
@@ -65,20 +62,11 @@ $breakpoint_mobile: 375px;
       > p {
         font-weight: 400;
         color: #667085;
-        text-align: center;
-      }
-
-      @media (max-width: 767px) {
-        justify-content: center;
       }
     }
 
     @media (max-width: 767px) {
-      padding-inline: 3rem;
-    }
-
-    @media (max-width: $breakpoint_mobile) {
-      display: none;
+      padding-inline: 1rem;
     }
   }
 }
